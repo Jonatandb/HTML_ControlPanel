@@ -117,3 +117,17 @@ main {
     font-size: 1.6rem;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .main-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-item {
+    padding-block: 1.5rem;
+  }
+
+  .grid-item i {
+    font-size: 2rem;
+  }
+}
