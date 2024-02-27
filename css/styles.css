@@ -131,3 +131,9 @@ main {
     font-size: 2rem;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .main-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
