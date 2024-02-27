@@ -18,7 +18,14 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   margin: 0;
 }
 
@@ -27,3 +34,32 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 2rem;
+}
+
+.logo-dark {
+  display: none;
+}
+
+header .sun,
+header .moon {
+  cursor: pointer;
+}
+
+header .sun {
+  display: none;
+}
